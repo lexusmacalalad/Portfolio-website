@@ -49,7 +49,7 @@ I will also be using **trello board** to track my progress and for time manageme
 ![Trello Board](docs/trelloboard.png)
 
 To help design my portfolio, the following is used:
-* [Figma](https://www.figma.com/files/) or [Lucid Chart](https://balsamiq.com/) to design a low level illustration and mockup of the portfolio on different media screens.
+* [Figma](https://www.figma.com/) or [Lucid Chart](https://balsamiq.com/) to design a low level illustration and mockup of the portfolio on different media screens.
   
 * [Diagram](https://app.diagrams.net/) to design the sitemap of the portfolio in order to see how the pages interact with each other and what each page contains or link to.
 
@@ -83,12 +83,23 @@ For the overall design of my portfolio, I want to go with a more minimalistic lo
   ![About Me Page](docs/about.png)
 
 ## *Design*
+### Colour Scheme
 The colour scheme of my portfolio was generated using [coolors](https://coolors.co/)
 ![colour-scheme](docs/colourscheme.png)
 I will be using **SASS Variables** to save these colours
-* $primary-colour: 0090A0B (black)
+* $primary-colour: 090A0B (black)
 * $secondary-colour: 333333 (charcoal)
 * $space-grey: 645F64 (grey)
 * $accent: F37120 (orange)
 * $light: F7F9F7 (snow)
 
+### Portfolio Mockup
+To create my portfolio mockups in several media screens, I used [lucid chart](https://www.lucidchart.com/pages/), as I found using this website the easiest to create mockups
+* Mobile View
+  ![Mobile view mockup](./docs/mobile-wireframe.png)
+
+* Tablet View
+![Tablet view mockup](./docs/tablet-wireframe.png)
+
+* Desktop View
+  ![Desktop view mockup](./docs/desktop-wireframe.png)
