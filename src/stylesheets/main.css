@@ -3,7 +3,8 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  color: #645F64;
+  background-color: #090A0b;
+  color: #F7F9F7;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -162,5 +163,33 @@ header .nav .menu a:hover {
   header .nav .menu li a {
     font-size: 2.2rem;
   }
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #090A0b;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 12px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  font-size: .8rem;
+  color: #F7F9F7;
+}
+
+.footer .footer-icons i {
+  margin: auto 4px;
+  color: #F7F9F7;
 }
 /*# sourceMappingURL=main.css.map */
