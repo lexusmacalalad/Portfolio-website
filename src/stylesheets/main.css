@@ -184,12 +184,18 @@ header .nav .menu a:hover {
 }
 
 .footer p {
-  font-size: .8rem;
+  font-size: .7rem;
   color: #F7F9F7;
 }
 
 .footer .footer-icons i {
   margin: auto 4px;
   color: #F7F9F7;
+}
+
+.footer .footer-icons i:hover {
+  color: #F37120;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 /*# sourceMappingURL=main.css.map */

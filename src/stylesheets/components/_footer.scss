@@ -10,7 +10,7 @@
   width: 100%;
 
   p {
-    font-size: .8rem;
+    font-size: .7rem;
     color: $light;
   }
 
@@ -18,6 +18,11 @@
     i {
       margin: auto 4px;
       color: $light;
+
+      &:hover {
+        color: $accent;
+        transition: .5s;
+      }
     }
   }
 }
