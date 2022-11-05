@@ -87,11 +87,11 @@ For the overall design of my portfolio, I want to go with a more minimalistic lo
 The colour scheme of my portfolio was generated using [coolors](https://coolors.co/)
 ![colour-scheme](docs/colourscheme.png)
 I will be using **SASS Variables** to save these colours
-* $primary-colour: 090A0B (black)
-* $secondary-colour: 333333 (charcoal)
-* $space-grey: 645F64 (grey)
-* $accent: F37120 (orange)
-* $light: F7F9F7 (snow)
+* $primary-color: #090A0B (black)
+* $secondary-color: #333333 (charcoal)
+* $space-grey: #645F64 (grey)
+* $accent: #F37120 (orange)
+* $light: #F7F9F7 (snow)
 
 ### Portfolio Mockup
 To create my portfolio mockups in several media screens, I used [lucid chart](https://www.lucidchart.com/pages/), as I found using this website the easiest to create mockups
@@ -103,3 +103,8 @@ To create my portfolio mockups in several media screens, I used [lucid chart](ht
 
 * Desktop View
   ![Desktop view mockup](./docs/desktop-wireframe.png)
+
+## References
+[Responsive Navigation Menu](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/) 
+* Although I ran into this amazing tutorial on how to make a navigation menu responsive, I still had a lot of trouble getting it to look like my mockup, specifically the **hamburger** lines, because I wanted it more rounded than looking blocky.
+* Through experimentation, I found that I can add a border radius on the hamburger line styling itself, but also add it on the 1st and last lines, including the gap between each line.

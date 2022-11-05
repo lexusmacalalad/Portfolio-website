@@ -1,0 +1,192 @@
+// *** Start Header ***
+header {
+  background-color: $primary-color;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  
+
+  // *** Start Logo Styling ***
+  .logo {
+    display: inline-block;
+    margin: 16px 8px 8px 8px;
+
+    img {
+      width: 64px;
+    }
+  }
+  // *** End Logo Styling ***
+
+
+  // *** Start Hamburger Menu Styling ***
+  // hides checkbox label for hamburger menu
+  .side-menu {
+    display: none;
+  }
+
+  // styling of label for hamburger menu
+  .hamb {
+    cursor: pointer;
+    float: right;
+    padding: 44px 20px;
+
+    // styling of hamburger line
+    .hamb-line {
+      background: $light;
+      display: block;
+      height: 4px;
+      position: relative;
+      width: 40px;
+      border-radius: 5px;
+    }
+
+    // adding more hamburger lines before and after the initial hamburger line
+    .hamb-line::before,
+    .hamb-line::after {
+      background: $light;
+      content: '';
+      border-radius: 5px;
+      display: block;
+      height: 100%;
+      position: absolute;
+      transition: all .2s ease-out;
+      width: 100%;
+    }
+
+    // add spacing between hamburger lines
+    .hamb-line::before {
+      top: 12px;
+    }
+
+    .hamb-line::after {
+      top: -12px;
+    }
+  }
+  // *** End Hamburger Menu Styling ***
+
+
+  // *** Start Toggled Menu Icon Styling ***
+  .side-menu {
+
+    // To show navigation menu items when checkbox is checked
+    &:checked ~ nav {
+      max-height: 100%;
+    }
+
+    // styling the middle hamburger line to disappear when checkbox is checked
+    &:checked ~ .hamb .hamb-line {
+      background: transparent;
+    }
+
+    // styling the top and bottom hamburger line to make an X shape when checkbox is checked
+    &:checked ~ .hamb .hamb-line::before {
+      transform: rotate(45deg);
+      top: 0;
+      transition: 0.5s;
+    }
+
+    &:checked ~ .hamb .hamb-line::after {
+      transform: rotate(-45deg);
+      top: 0;
+      transition: 0.5s;
+    }
+  }
+  // *** End Toggled Menu Icon Styling ***
+
+
+  // *** Start Navigation Menu Styling ***
+  .nav {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: $primary-color;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .5s ease-out;
+
+    .menu {
+      list-style: none;
+
+      a {
+        display: block;
+        padding: 30px;
+        color: $light;
+        font-size: 1.3rem;
+        text-decoration: none;
+        border-bottom: 2px solid $secondary-color;
+
+        // hovered effect animation on navigation items
+        &:hover {
+          color: $accent;
+          transition: .5s ease-in;
+        }
+      }
+    }
+  }
+  // *** End Navigation Menu Styling ***
+
+
+  // *** Start Responsiveness for Tablet View ***
+  @media (min-width: 768px) {
+
+    .logo img {
+      width: 80px;
+      margin-left: 20px;
+    }
+
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+
+      .menu {
+
+        li {
+          float: left;
+        }
+
+        a {
+          border: none;
+          padding: 44px 4px 0 4px;
+          font-size: 1rem;
+
+          &:last-child {
+            padding-right: 20px;
+          }
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+
+    .hamb {
+        display: none;
+    }
+  }
+  // *** End Responsiveness for Tablet and Desktop View ***
+
+  // *** Start Responsiveness for 4k Monitor View ***
+  @media (min-width: 2560px) {
+    .logo img {
+      width: 150px;
+      padding-left: 50px;
+    }
+
+    .nav {
+      padding-right: 50px;
+      .menu {
+        li {
+          a {
+            font-size: 2.2rem;
+          }
+        }
+      }
+    }
+  }
+  // *** End Responsiveness for 4k Monitor View ***
+}
+// *** End Header ***
