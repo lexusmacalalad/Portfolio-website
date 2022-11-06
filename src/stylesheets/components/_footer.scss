@@ -3,14 +3,14 @@
   background-color: $primary-color;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 12px;
+  padding: 8px 12px;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
 
   p {
-    font-size: .7rem;
+    font-size: .6rem;
     color: $light;
   }
 
@@ -22,6 +22,7 @@
       &:hover {
         color: $accent;
         transition: .5s;
+        transform: scale(1.1);
       }
     }
   }

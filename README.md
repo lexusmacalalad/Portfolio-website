@@ -104,6 +104,10 @@ To create my portfolio mockups in several media screens, I used [lucid chart](ht
 * Desktop View
   ![Desktop view mockup](./docs/desktop-wireframe.png)
 
+### Logo
+![LM logo](docs/lm-logo.png)
+This logo was designed using [Canva](https://www.canva.com/)
+
 ## References
 [Responsive Navigation Menu](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/) 
 * Although I ran into this amazing tutorial on how to make a navigation menu responsive, I still had a lot of trouble getting it to look like my mockup, specifically the **hamburger** lines, because I wanted it more rounded than looking blocky.

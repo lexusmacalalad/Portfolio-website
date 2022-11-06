@@ -3,7 +3,6 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #090A0b;
   color: #F7F9F7;
   font-family: 'Roboto', sans-serif;
 }
@@ -18,11 +17,11 @@ header {
 
 header .logo {
   display: inline-block;
-  margin: 16px 8px 8px 8px;
+  margin: 4px 8px;
 }
 
 header .logo img {
-  width: 64px;
+  width: 48px;
 }
 
 header .side-menu {
@@ -32,15 +31,15 @@ header .side-menu {
 header .hamb {
   cursor: pointer;
   float: right;
-  padding: 44px 20px;
+  padding: 24px 20px;
 }
 
 header .hamb .hamb-line {
   background: #F7F9F7;
   display: block;
-  height: 4px;
+  height: 3px;
   position: relative;
-  width: 40px;
+  width: 28px;
   border-radius: 5px;
 }
 
@@ -58,11 +57,11 @@ header .hamb .hamb-line::after {
 }
 
 header .hamb .hamb-line::before {
-  top: 12px;
+  top: 8px;
 }
 
 header .hamb .hamb-line::after {
-  top: -12px;
+  top: -8px;
 }
 
 header .side-menu:checked ~ nav {
@@ -93,6 +92,7 @@ header .nav {
   width: 100%;
   height: 100%;
   position: fixed;
+  top: 50px;
   background-color: #090A0b;
   overflow: hidden;
   max-height: 0;
@@ -108,7 +108,7 @@ header .nav .menu a {
   display: block;
   padding: 30px;
   color: #F7F9F7;
-  font-size: 1.3rem;
+  font-size: .9rem;
   text-decoration: none;
   border-bottom: 2px solid #333333;
 }
@@ -121,7 +121,7 @@ header .nav .menu a:hover {
 
 @media (min-width: 768px) {
   header .logo img {
-    width: 80px;
+    width: 40px;
     margin-left: 20px;
   }
   header .nav {
@@ -138,8 +138,9 @@ header .nav .menu a:hover {
   }
   header .nav .menu a {
     border: none;
-    padding: 44px 4px 0 4px;
+    padding: 0;
     font-size: 1rem;
+    margin: 20px 8px 20px 8px;
   }
   header .nav .menu a:last-child {
     padding-right: 20px;
@@ -176,7 +177,7 @@ header .nav .menu a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px 12px;
+  padding: 8px 12px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -184,7 +185,7 @@ header .nav .menu a:hover {
 }
 
 .footer p {
-  font-size: .7rem;
+  font-size: .6rem;
   color: #F7F9F7;
 }
 
@@ -197,5 +198,17 @@ header .nav .menu a:hover {
   color: #F37120;
   -webkit-transition: .5s;
   transition: .5s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.landing-page {
+  background-image: url("../../docs/desktop.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
 }
 /*# sourceMappingURL=main.css.map */
