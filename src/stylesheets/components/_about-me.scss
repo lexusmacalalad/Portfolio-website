@@ -3,17 +3,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 64px;
 
   img {
     width: 50vw;
+    border-radius: 8px;
   }
 
   p {
     margin-top: 32px;
   }
 }
-// *** End About Me Section
+// *** End About Me Section ***
 
 // *** Start Skills Section ***
 .skills {
@@ -26,7 +26,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 64px;
 
     img {
       width: 40vw;
@@ -54,5 +53,141 @@
 // *** End Skills Section ***
 
 // *** Start Hobbies and Interests Section ***
+.hobbies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 
+  .hobby-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px $secondary-color;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 56vw;
+    min-height: 20vh;
+    margin: 8px;
+
+    img {
+      width: 48vw;
+      border-radius: 4px;
+    }
+
+    h3 {
+      margin-top: 20px;
+    }
+  }
+}
 // *** End Hobbies and Interests Section ***
+
+
+// *** Start Responsiveness for Tablet View ***
+@media (min-width: 768px) {
+  .about-main {
+    max-width: $tablet-size;
+    margin: 0 auto;
+  
+    // About Me Section
+    .about-me {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 48px;
+    
+      img {
+        width: 28vw;
+        order: 1;
+      }
+      
+      .about-info {
+        width: 40vw;
+        order: 0;
+      }
+    }
+  
+    // Skills Section
+    .skills {
+      flex-direction: row;
+      justify-content: center;
+  
+      .skills-card {
+        img {
+          width: 24vw;
+        }
+      }
+    }
+
+    // Hobbies Section
+    .hobbies {
+      .hobby-card {
+        max-width: 30vw;
+        min-height: 24vh;
+
+        img {
+          width: 24vw;
+        }
+      }
+    }
+  }
+}
+// *** End Responsiveness for Tablet View ***
+
+// *** Start Responsiveness for Small Laptop View ***
+@media (min-width: 1024px) {
+  
+  .about-main {
+    max-width: $laptop-size;
+    
+    .about-me {
+      img {
+        width: 24vw;
+      }
+    }
+  }
+}
+// *** End Responsiveness for Small Laptop View ***
+
+
+// *** Start Responsiveness for Large Laptop View ***
+@media (min-width: 1440px) {
+  .about-main {
+    max-width: $large-laptop-size;
+
+    // About Me Section
+    .about-me {
+      justify-content: space-around;
+
+      img {
+        width: 16vw;
+      }
+      
+      .about-info {
+        width: 32vw;
+      }
+    }
+
+    // Skills Section
+    .skills {
+      .skills-card {
+        margin: 8px auto;
+        img {
+          width: 16vw;
+        }
+      }
+    }
+
+    // Hobbies Section
+    .hobbies {
+      justify-content: space-between;
+      
+      .hobby-card {
+        img {
+          width: 12vw;
+        }
+      }
+    }
+  }
+}
+// *** End Responsiveness for Large Laptop View ***

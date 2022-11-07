@@ -114,3 +114,13 @@ This logo was designed using [Canva](https://www.canva.com/)
 * Through experimentation, I found that I can add a border radius on the hamburger line styling itself, but also add it on the 1st and last lines, including the gap between each line.
 [Icons8](https://icons8.com/)
 * Icons 8 was used to download some logos like the HTML and CSS logos.
+
+### Image References
+![Keyboard](./docs/keyboard_500.jpeg)
+* Keyboard image taken from [candykeys](https://candykeys.com/group-buys/gmk-apollo)
+![Gundam](./docs/gundam_500.jpeg)
+* Gundam image taken from [Gundam kits collection](https://www.gundamkitscollection.com/2018/10/custom-build-mg-1100-re-freedom-gundam.html)
+![Valorant](./docs/valorant_500.jpeg)
+* Valorant image taken from [Riot Games](https://www.riotgames.com/en/news/starting-the-valorant-journey) 
+![Badminton](./docs/badminton_500.jpeg)
+* Badminton image taken from [Active Stirling UK](https://www.activestirling.org.uk/sports-facilities/sports-hall/badminton)

@@ -1,5 +1,4 @@
-@mixin title {
-  font-weight: bold;
-  color: $accent;
-  font-size: 1.5rem;
+@mixin tablet {
+  max-width: $tablet-size;
+  margin: 0 auto;
 }

@@ -16,6 +16,10 @@ main {
   margin-bottom: 36px;
 }
 
+section {
+  margin-top: 64px;
+}
+
 h1 {
   font-weight: 900;
   color: #F37120;
@@ -26,11 +30,7 @@ h2 {
   font-weight: 300;
   color: #645F64;
   font-size: 2rem;
-  margin-top: 64px;
-}
-
-h3 {
-  color: #F37120;
+  margin-top: 80px;
 }
 
 span {
@@ -39,6 +39,12 @@ span {
 
 p {
   line-height: 1.8;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding-bottom: 128px;
+  }
 }
 
 header {
@@ -155,7 +161,7 @@ header .nav .menu a:hover {
 
 @media (min-width: 768px) {
   header .logo img {
-    width: 40px;
+    width: 80px;
     margin-left: 20px;
   }
   header .nav {
@@ -173,7 +179,7 @@ header .nav .menu a:hover {
   header .nav .menu a {
     border: none;
     padding: 0;
-    font-size: .9rem;
+    font-size: 1.3rem;
     margin: 12px;
   }
   header .nav .menu a:last-child {
@@ -247,11 +253,11 @@ header .nav .menu a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 64px;
 }
 
 .about-me img {
   width: 50vw;
+  border-radius: 8px;
 }
 
 .about-me p {
@@ -285,7 +291,6 @@ header .nav .menu a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 64px;
 }
 
 .skills .skills-card img {
@@ -311,6 +316,139 @@ header .nav .menu a:hover {
   display: block;
   -webkit-transition: 0.5s ease-in;
   transition: 0.5s ease-in;
+}
+
+.hobbies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hobbies .hobby-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid 2px #333333;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 56vw;
+  min-height: 20vh;
+  margin: 8px;
+}
+
+.hobbies .hobby-card img {
+  width: 48vw;
+  border-radius: 4px;
+}
+
+.hobbies .hobby-card h3 {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .about-main {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .about-main .about-me {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 48px;
+  }
+  .about-main .about-me img {
+    width: 28vw;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .about-main .about-me .about-info {
+    width: 40vw;
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+  }
+  .about-main .skills {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about-main .skills .skills-card img {
+    width: 24vw;
+  }
+  .about-main .hobbies .hobby-card {
+    max-width: 30vw;
+    min-height: 24vh;
+  }
+  .about-main .hobbies .hobby-card img {
+    width: 24vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-main {
+    max-width: 820px;
+  }
+  .about-main .about-me img {
+    width: 24vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  .about-main {
+    max-width: 1140px;
+  }
+  .about-main .about-me {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .about-main .about-me img {
+    width: 16vw;
+  }
+  .about-main .about-me .about-info {
+    width: 32vw;
+  }
+  .about-main .skills .skills-card {
+    margin: 8px auto;
+  }
+  .about-main .skills .skills-card img {
+    width: 16vw;
+  }
+  .about-main .hobbies {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .about-main .hobbies .hobby-card img {
+    width: 12vw;
+  }
 }
 
 .landing-page {

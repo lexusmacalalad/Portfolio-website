@@ -1,5 +1,6 @@
 @import './colours';
 @import './mixins';
+@import './media-size';
 
 // Reset
 * {
@@ -19,6 +20,10 @@ main {
   margin-bottom: 36px;
 }
 
+section {
+  margin-top: 64px;
+}
+
 h1 {
   font-weight: 900;
   color: $accent;
@@ -29,11 +34,7 @@ h2 {
   font-weight: 300;
   color: $space-grey;
   font-size: 2rem;
-  margin-top: 64px;
-}
-
-h3 {
-  color: $accent;
+  margin-top: 80px;
 }
 
 span {
@@ -43,3 +44,11 @@ span {
 p {
   line-height: 1.8;
 }
+
+// *** Start Tablet View ***
+@media (min-width: 768px) {
+  main {
+    padding-bottom: 128px;
+  }
+}
+// *** End Tablet View ***
