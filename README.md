@@ -112,3 +112,5 @@ This logo was designed using [Canva](https://www.canva.com/)
 [Responsive Navigation Menu](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/) 
 * Although I ran into this amazing tutorial on how to make a navigation menu responsive, I still had a lot of trouble getting it to look like my mockup, specifically the **hamburger** lines, because I wanted it more rounded than looking blocky.
 * Through experimentation, I found that I can add a border radius on the hamburger line styling itself, but also add it on the 1st and last lines, including the gap between each line.
+[Icons8](https://icons8.com/)
+* Icons 8 was used to download some logos like the HTML and CSS logos.

@@ -6,6 +6,40 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: $light;
   font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: $primary-color;
+  color: $light;
+}
+
+main {
+  padding: 24px 36px;
+  margin-bottom: 36px;
+}
+
+h1 {
+  font-weight: 900;
+  color: $accent;
+  font-size: 2.7rem;
+}
+
+h2 {
+  font-weight: 300;
+  color: $space-grey;
+  font-size: 2rem;
+  margin-top: 64px;
+}
+
+h3 {
+  color: $accent;
+}
+
+span {
+  color: $accent;
+}
+
+p {
+  line-height: 1.8;
 }

@@ -1,0 +1,58 @@
+// *** Start About Me Section ***
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+
+  img {
+    width: 50vw;
+  }
+
+  p {
+    margin-top: 32px;
+  }
+}
+// *** End About Me Section
+
+// *** Start Skills Section ***
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .skills-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+
+    img {
+      width: 40vw;
+      &:hover {
+        opacity: 0.2;
+        transition: 0.5s ease-in;
+      }
+    }
+
+    .skill-level {
+      position: absolute;
+      display: none;
+      color: $light;
+      background-color: $secondary-color;
+      padding: 8px;
+      border-radius: 8px;
+    }
+
+    img:hover ~ .skill-level {
+      display: block;
+      transition: 0.5s ease-in;
+    }
+  }
+}
+// *** End Skills Section ***
+
+// *** Start Hobbies and Interests Section ***
+
+// *** End Hobbies and Interests Section ***
