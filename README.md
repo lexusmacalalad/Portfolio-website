@@ -118,9 +118,18 @@ This logo was designed using [Canva](https://www.canva.com/)
 ### Image References
 ![Keyboard](./docs/keyboard_500.jpeg)
 * Keyboard image taken from [candykeys](https://candykeys.com/group-buys/gmk-apollo)
+  
 ![Gundam](./docs/gundam_500.jpeg)
 * Gundam image taken from [Gundam kits collection](https://www.gundamkitscollection.com/2018/10/custom-build-mg-1100-re-freedom-gundam.html)
+  
 ![Valorant](./docs/valorant_500.jpeg)
 * Valorant image taken from [Riot Games](https://www.riotgames.com/en/news/starting-the-valorant-journey) 
+  
 ![Badminton](./docs/badminton_500.jpeg)
 * Badminton image taken from [Active Stirling UK](https://www.activestirling.org.uk/sports-facilities/sports-hall/badminton)
+
+![Coder Academy](./docs/coder.academy.png)
+* Coder Academy logo taken from [Coder Academy Facebook](https://www.facebook.com/coderacademyAU/)
+
+![Allied IT](./docs/allied500x500.png)
+* Allied logo taken from [Allied Facebook](https://www.facebook.com/AlliedPickfords.Wodonga.WaggaWagga/)

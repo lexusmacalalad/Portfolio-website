@@ -9,11 +9,17 @@
       .detail-card {
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 16px 0;
 
         i {
           color: $space-grey;
+        }
+
+        p {
+          width: 60%;
+          font-size: .8rem;
+          align-self: flex-start;
         }
       }
     }

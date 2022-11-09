@@ -1,0 +1,120 @@
+main {
+
+  .career {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education {
+    @extend .career;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .career-education-card {
+    width: 80%;
+    margin: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      width: 90%;
+      border-radius: 20px;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      margin-top: 20px;
+    }
+
+    p {
+      margin-top: 20px;
+      font-size: .8rem;
+    }
+  }
+
+  .resume {
+    p {
+      margin-top: 64px;
+      margin-bottom: 24px;
+    }
+
+    .resume-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      a {
+
+        i {
+          color: $space-grey;
+          text-decoration: none;
+          &:hover {
+            transform: scale(1.1);
+            transition: .5s ease-in;
+          }
+        }
+      }
+
+      p {
+        margin-top: 16px;
+      }
+    }
+  }
+}
+
+// *** Start Responsiveness for Tablet View ***
+@media (min-width:768px) {
+  main {
+    .career-education-card {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      img {
+        width: 40%;
+      }
+
+      .ce-description {
+        width: 55%;
+      }
+
+      p {
+        font-size: .9rem;
+      }
+    }
+  }
+}
+// *** End Responsiveness for Tablet View ***
+
+// *** Start Responsiveness for Small Laptop View ***
+@media (min-width:1024px) {
+  main {
+    .career-education-card {
+
+      img {
+        width: 35%;
+      }
+    }
+  }
+}
+// *** End Responsiveness for Small Laptop View ***
+
+// *** Start Responsiveness for Small Laptop View ***
+@media (min-width:1440px) {
+  main {
+    .career-education-card {
+      width: 80%;
+
+      img {
+        width: 25%;
+      }
+    }
+  }
+}
+// *** End Responsiveness for Small Laptop View ***
