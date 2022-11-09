@@ -13,8 +13,9 @@
   <!-- For google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,900&display=swap" rel="stylesheet">
 
+  <!-- Link to CSS stylesheet -->
   <link rel="stylesheet" href="../stylesheets/main.css">
 </head>
 <body>
@@ -44,7 +45,63 @@
   <!-- *** End Header *** -->
 
   <!-- *** Start Main *** -->
-  <main>
+  <main class="contact-main">
+    <h1>Contact Me!</h1>
+
+    <div class="contact-flex">
+
+      <!-- Contact Section -->
+      <section class="contact">
+        <div class="details">
+          <div class="detail-card">
+            <i class="fa-regular fa-envelope fa-3x"></i>
+            <p>E-mail: Lexus Macalalad</p>
+          </div>
+          <div class="detail-card">
+            <i class="fa-solid fa-phone-flip fa-3x"></i>
+            <p>Phone: +61 450 017 412</p>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Socials Section -->
+      <div class="social-flex">
+        <h2>Follow Me</h2>
+        <section class="socials">
+          <div class="social-card">
+            <a href="https://www.linkedin.com/in/lexus-macalalad-a35a65209/" target="_blank"><i class="fa-brands fa-linkedin-in fa-3x"></i></a>
+            <p>Linkedin</p>
+          </div>
+          <div class="social-card">
+            <a href="https://github.com/lexusmacalalad" target="_blank"><i class="fa-brands fa-github-alt fa-3x"></i></a>
+            <p>Github</p>
+          </div>
+          <div class="social-card">
+            <a href="https://www.instagram.com/lexx_v2/" target="_blank"><i class="fa-brands fa-square-instagram fa-3x"></i></a>
+            <p>Instagram</p>
+          </div>
+        </section>
+      </div>
+  
+      <!-- Message Section -->
+      <div class="form">
+        <h2>Message Me</h2>
+        <form>
+          <label for="firstname">First name:</label><br>
+          <input type="text" name="firstname" id="firstname" placeholder="e.g. John">
+          <hr>
+          <label for="lastname">Last name:</label><br>
+          <input type="text" name="lastname" id="lastname" placeholder="e.g. Roman">
+          <hr>
+          <label for="message">Write me a message</label><br>
+          <textarea name="message" id="message" cols="30" rows="5" placeholder="Type your message here :)"></textarea><br>
+          <hr>
+          <input type="submit" id="Submit">
+        </form>
+      </div>
+
+    </div>
+
   </main>
   <!-- *** End Main -->
 

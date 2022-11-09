@@ -2,3 +2,11 @@
   max-width: $tablet-size;
   margin: 0 auto;
 }
+
+@mixin inputs {
+  background-color: $primary-color;
+  border: none;
+  color: $space-grey;
+  font-size: 1.1rem;
+  padding: 12px 12px 8px 12px;
+}
