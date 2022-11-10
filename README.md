@@ -45,6 +45,8 @@ It is therefore required that I meet all the requirements that will allow this p
 ## *Tech Stack*
 The tech stack that will be used in the early stages of the portolio are **HTML** and **CSS** along with the **SASS** extension for styling. This will change as I gain more coding/programming skills, where I will eventually add some logic to the page (e.g. the form section in the about me page).
 
+**Google dev tools** was used a lot to help me understand what I needed to change with my elements, most specially when playing around with margins and paddings.
+
 I will also be using **trello board** to track my progress and for time management so I can finish the features I want included in a timely manner.
 ![Trello Board](docs/trelloboard.png)
 
@@ -55,7 +57,15 @@ To help design my portfolio, the following is used:
 
 * [coolors](https://coolors.co/) to find a colour palette that will complement the theme I want to achieve
 
+* [fotor](https://www.fotor.com/) was used to edit my images, specifically my landing page because I couldn't use filters using CSS without it affecting its child elements.
+
+* [image optimizer](http://www.imageoptimizer.net/Pages/Home.aspx) was used to optmise my images in order to make them smaller for my webpage. This was done so that the page would load a lot quicker because it doesn't have to load as many elements with a small image.
+
+* [iloveimg](https://www.iloveimg.com/crop-image) used to crop images I wanted to include in my portfolio to make it more aesthetically pleasing.
+
 To deploy my portfolio as a public website while I am still working on it, I will be using [Netlify](https://www.netlify.com/), but will eventually purchase my own domain when I start searching for career opportunities in this field.
+
+
 
 ## *Inspiration*
 ### Theme Inspiration
@@ -99,7 +109,7 @@ To create my portfolio mockups in several media screens, I used [lucid chart](ht
   ![Mobile view mockup](./docs/mobile-wireframe.png)
 
 * Tablet View
-![Tablet view mockup](./docs/tablet-wireframe.png)
+  ![Tablet view mockup](./docs/tablet-wireframe.png)
 
 * Desktop View
   ![Desktop view mockup](./docs/desktop-wireframe.png)
@@ -114,22 +124,3 @@ This logo was designed using [Canva](https://www.canva.com/)
 * Through experimentation, I found that I can add a border radius on the hamburger line styling itself, but also add it on the 1st and last lines, including the gap between each line.
 [Icons8](https://icons8.com/)
 * Icons 8 was used to download some logos like the HTML and CSS logos.
-
-### Image References
-![Keyboard](./docs/keyboard_500.jpeg)
-* Keyboard image taken from [candykeys](https://candykeys.com/group-buys/gmk-apollo)
-  
-![Gundam](./docs/gundam_500.jpeg)
-* Gundam image taken from [Gundam kits collection](https://www.gundamkitscollection.com/2018/10/custom-build-mg-1100-re-freedom-gundam.html)
-  
-![Valorant](./docs/valorant_500.jpeg)
-* Valorant image taken from [Riot Games](https://www.riotgames.com/en/news/starting-the-valorant-journey) 
-  
-![Badminton](./docs/badminton_500.jpeg)
-* Badminton image taken from [Active Stirling UK](https://www.activestirling.org.uk/sports-facilities/sports-hall/badminton)
-
-![Coder Academy](./docs/coder.academy.png)
-* Coder Academy logo taken from [Coder Academy Facebook](https://www.facebook.com/coderacademyAU/)
-
-![Allied IT](./docs/allied500x500.png)
-* Allied logo taken from [Allied Facebook](https://www.facebook.com/AlliedPickfords.Wodonga.WaggaWagga/)

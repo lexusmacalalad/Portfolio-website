@@ -10,3 +10,9 @@
   font-size: 1.1rem;
   padding: 12px 12px 8px 12px;
 }
+
+@mixin card-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

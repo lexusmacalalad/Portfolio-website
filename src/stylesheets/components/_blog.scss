@@ -1,0 +1,116 @@
+main, .blog-page{
+
+  .blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    a {
+      text-decoration: none;
+      color: $light;
+      width: 100%;
+
+      .blog-card {
+        padding: 24px;
+        border: 2px solid $space-grey;
+        border-radius: 24px;
+        @include card-center;
+        text-align: center;
+        margin-bottom: 32px;
+
+        img {
+          width: 100%;
+          border-radius: 16px;
+          margin-bottom: 24px;
+        }
+  
+        h3 {
+          font-weight: bold;
+          font-size: 1.5rem;
+          max-width: 100%;
+          color: $space-grey;
+        }
+  
+        p {
+          margin-top: 24px;
+          max-width: 100%;
+        }
+
+        &:hover {
+          background-color: $accent;
+          transition: .5s ease-in;
+  
+          .date p, h3 {
+            color: $light;
+            transition: .5s ease-in;
+          }
+        }
+
+        .date {
+          p {
+            font-size: .8rem;
+            color: $space-grey;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+// *** Start Responsiveness for Tablet View ***
+@media (min-width: 768px) {
+  main, .blog-page {
+
+    .blog {
+
+      a {
+        width: 75%;
+      }
+    }
+
+  }
+}
+// *** End Responsiveness for Tablet View ***
+
+// *** Start Responsiveness for Small Laptop View ***
+@media (min-width: 1024px) {
+  main, .blog-page {
+
+    .blog {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      a {
+        width: 45%;
+        margin-bottom: 40px;
+        
+        .blog-card {
+          min-height: 500px;
+        }
+      }
+    }
+  }
+}
+// *** End Responsiveness for Small Laptop View ***
+
+// *** Start Responsiveness for Large Laptop View ***
+@media (min-width: 1440px) {
+  main, .blog-page {
+
+    .blog {
+      width: 80%;
+      margin: 60px auto;
+      a {
+        width: 40%;
+        
+        .blog-card {
+          min-height: 500px;
+        }
+      }
+    }
+  }
+}
+// *** End Responsiveness for Large Laptop View ***
