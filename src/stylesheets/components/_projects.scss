@@ -1,11 +1,95 @@
-main, projects-page {
-  section {
+main, .projects-page {
+  
+  h1 {
+    margin-bottom: 36px;
+  }
+  a {
+    text-decoration: none;
+  }
 
-    .project-section {
-      
+  section {
+    display: flex;
+    flex-wrap: wrap;
+
+
+    a {
+      text-decoration: none;
+      color: $light;
+
       .project-card {
-        
+        padding: 24px;
+        border: 2px solid $light;
+        border-radius: 24px;
+        @include card-center;
+        margin-bottom: 24px;
+        text-align: center;
+        min-height: 400px;
+
+        img {
+          width: 95%;
+          border-radius: 16px;
+          margin-bottom: 24px;
+        }
+
+        h3 {
+          color: $accent;
+          margin-bottom: 24px;
+        }
+
+        &:hover {
+          border-color: $accent;
+          transition: .5s ease-in;
+        }
       }
     }
   }
 }
+
+// *** Start Responsiveness for Tablet View ***
+@media (min-width: 768px) {
+  main, .projects-page {
+
+    .project-section {
+      justify-content: space-between;
+
+      a {
+        width: 45%;
+
+        .project-card {
+          min-height: 450px;
+        }
+      }
+    }
+  }
+}
+// *** End Reponsiveness for Tablet View ***
+
+
+// *** Start Responsiveness for Small Laptop View ***
+@media (min-width: 1024px) {
+  .main, .projects-page {
+
+    .project-section {
+
+      a {
+        width: 32%;
+      }
+    }
+  }
+}
+// *** End Responsiveness for Small Laptop View ***
+
+// *** Start Responsiveness for Big Laptop View ***
+@media (min-width: 1024px) {
+  .main, .projects-page {
+
+    .project-section {
+
+      a {
+        width: 29%;
+      }
+
+    }
+  }
+}
+// *** End Responsiveness for Big Laptop View ***
