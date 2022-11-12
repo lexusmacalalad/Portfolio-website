@@ -55,6 +55,11 @@ span {
   color: #F37120;
 }
 
+.date p {
+  font-size: .8rem;
+  color: #645F64;
+}
+
 @media (min-width: 768px) {
   main {
     padding-bottom: 128px;
@@ -755,7 +760,7 @@ main .resume .resume-card p {
     width: 80%;
   }
   main .career-education-card img {
-    width: 25%;
+    width: 40%;
   }
 }
 
@@ -868,6 +873,74 @@ main .blog a .blog-card .date p, .blog-page .blog a .blog-card .date p {
   }
   main .blog a .blog-card, .blog-page .blog a .blog-card {
     min-height: 500px;
+  }
+}
+
+main .blog-page {
+  width: 100%;
+}
+
+main .blog-page .blog-img img {
+  width: 100%;
+}
+
+main .blog-page .blog-img .bi-sm {
+  margin: 12px auto 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .blog-page .blog-img .bi-sm img {
+  width: 48%;
+}
+
+main .blog-page p {
+  margin-bottom: 24px;
+}
+
+@media (min-width: 1024px) {
+  main .blog-page {
+    width: 100%;
+  }
+  main .blog-page .blog-img {
+    width: 95%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 36px;
+  }
+  main .blog-page .blog-img img {
+    width: 65%;
+  }
+  main .blog-page .blog-img .bi-sm {
+    width: 40%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0;
+  }
+  main .blog-page .blog-img .bi-sm img {
+    width: 70%;
+    margin: auto;
+  }
+  main .blog-page p {
+    margin-bottom: 24px;
   }
 }
 

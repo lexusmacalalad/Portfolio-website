@@ -1,0 +1,62 @@
+main .blog-page {
+  width: 100%;
+
+  .blog-img {
+
+    img {
+      width: 100%;
+    }
+
+    .bi-sm {
+      margin: 12px auto 26px;
+      display: flex;
+      justify-content: space-between;
+      img {
+        width: 48%;
+      }
+    }
+  }
+
+  p {
+    margin-bottom: 24px;
+  }
+}
+
+// *** Start Responsiveness for Small Laptop View ***
+@media (min-width: 1024px) {
+  main .blog-page {
+    width: 100%;
+  
+    // I am unsure as to why display flex row is not working in this container. The small blog image card is always sticking to the big image even though I already set justify content as space between. It has been fixed by adding margin-left: auto.
+    .blog-img {
+      width: 95%;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 36px;
+
+      img {
+        width: 65%;
+      }
+  
+      .bi-sm {
+        width: 40%;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
+
+        img {
+          width: 70%;
+          margin: auto;
+        }
+      }
+    }
+  
+    p {
+      margin-bottom: 24px;
+    }
+  }
+
+}
+// *** Start Responsiveness for Small Laptop View ***

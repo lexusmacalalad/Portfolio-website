@@ -58,6 +58,14 @@ span {
   color: $accent;
 }
 
+// Classes
+.date {
+  p {
+    font-size: .8rem;
+    color: $space-grey;
+  }
+}
+
 
 // *** Start Tablet View ***
 @media (min-width: 768px) {
