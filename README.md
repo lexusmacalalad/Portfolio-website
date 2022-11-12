@@ -1,10 +1,14 @@
 # Documentation for Website Portfolio - Lexus Macalalad
 
-[Portfolio Website]()  
+[Portfolio Website - Website]() 
+
+[Portfolio Website - Source code](./src/index.html) 
+
 [GitHub Repository](https://github.com/lexusmacalalad/Portfolio-website)  
+
 [Presentation Video]()  
 
-  *Insert screenshot of portfolio website here *
+![Portfolio Website Landing Page](docs/landing.png)
 
 ## *Purpose of Portfolio Website*
 The purpose of this portfolio website is to introduce myself and be able to showcase my coding/programming skills. There are two main goals that I want my portfolio website to achieve, which are can be broken down into **user stories**:
@@ -32,6 +36,24 @@ Therefore, the following features will be included in my portfolio website:
 ![Sitemap](docs/portfolio-sitemap.png)
 
 ## *Screenshots*
+
+### Screenshot of Landing / Main Page
+![Landing Page](./docs/landing.png)
+
+### Screenshot of About Me Page
+![About Me Page](./docs/about-me.png)
+
+### Screenshot of Career Page
+![Career Page](./docs/career.png)
+
+### Screenshot of Project Page
+![Project Page](./docs/project.png)
+
+### Screenshot of Contact Me Page
+![Contact Me Page](./docs/contact-me.png)
+
+### Screenshot of Blog Page
+![Blog Page](./docs/blog.png)
 
 ## *Target Audience*
 As this portfolio is aimed at future employment in the industry, recruitment agencies or employers will be my primary target audience. 
@@ -116,7 +138,7 @@ To create my portfolio mockups in several media screens, I used [lucid chart](ht
 
 ### Logo
 ![LM logo](docs/lm-logo.png)
-This logo was designed using [Canva](https://www.canva.com/)
+* This logo was designed using [Canva](https://www.canva.com/)
 
 ## References
 [Responsive Navigation Menu](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/) 

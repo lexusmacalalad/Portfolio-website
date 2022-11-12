@@ -100,7 +100,7 @@
       }
       
       .about-info {
-        width: 40vw;
+        width: 55%;
         order: 0;
       }
     }
@@ -137,8 +137,10 @@
   
   .about-main {
     max-width: $laptop-size;
+
     
     .about-me {
+
       img {
         width: 24vw;
       }

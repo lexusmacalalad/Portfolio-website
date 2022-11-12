@@ -415,7 +415,7 @@ header .nav .menu a:hover {
             order: 1;
   }
   .about-main .about-me .about-info {
-    width: 40vw;
+    width: 55%;
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
@@ -696,6 +696,7 @@ main .resume p {
 }
 
 main .resume .resume-card {
+  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
