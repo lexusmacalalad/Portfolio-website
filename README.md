@@ -1,12 +1,12 @@
 # Documentation for Website Portfolio - Lexus Macalalad
 
-[Portfolio Website - Website]() 
+[Portfolio Website - Website](https://lexus-macalalad-portolfio.netlify.app/) 
 
 [Portfolio Website - Source code](./src/index.html) 
 
 [GitHub Repository](https://github.com/lexusmacalalad/Portfolio-website)  
 
-[Presentation Video]()  
+[Presentation Video](https://youtu.be/5DRkyz0r4YE)  
 
 ![Portfolio Website Landing Page](docs/landing.png)
 
